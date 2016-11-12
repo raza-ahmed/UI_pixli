@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">UI_pixli</string>
+    <string name="title_activity_login">Login</string>
+    <string name="terms">By signing up, I agree to Pixli\'s terms and conditons, privacy policies and community guidelines.</string>
+    <string name="album_heading">Choose a country</string>
+    <string-array name="album_type">
+        <item>Wedding</item>
+        <item>Travel</item>
+        <item>Party</item>
+        <item>Other</item>
+
+    </string-array>
 </resources>
