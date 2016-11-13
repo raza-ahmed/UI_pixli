@@ -1,7 +1,9 @@
 package com.example.peeyush.ui_pixli;
 
+import android.graphics.Color;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -14,6 +16,8 @@ public class CustomOnItemSelectedListener implements AdapterView.OnItemSelectedL
         Toast.makeText(parent.getContext(),
                 "OnItemSelectedListener : " + parent.getItemAtPosition(pos).toString(),
                 Toast.LENGTH_SHORT).show();
+        ((TextView) parent.getChildAt(0)).setTextColor(Color.WHITE);
+        ((TextView) parent.getChildAt(0)).setTextSize(20);
     }
 
     @Override
