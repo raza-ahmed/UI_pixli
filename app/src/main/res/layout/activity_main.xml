@@ -58,7 +58,7 @@
             android:background="@drawable/shape"
             android:onClick="openLogin"
             android:text="Create Event"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="@android:color/white" />
         <LinearLayout
             android:layout_width="match_parent"
@@ -75,7 +75,7 @@
             android:background="@drawable/shape"
             android:onClick="openCreateEvent"
             android:text="Guest Login"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="@android:color/white" />
 
 
